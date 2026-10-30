@@ -25,7 +25,7 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync . s3://github-actions-web-demo-2026 \
+          aws s3 sync . s3://yws-portfolio \
             --delete \
             --exclude ".git/*" \
             --exclude ".github/*" \
